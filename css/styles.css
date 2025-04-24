@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-image: url(https://i.pinimg.com/564x/43/6e/77/436e7749af37c4cb12018a38a8da4301.jpg);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #2e2c2c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#cuerpo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+li:hover {
+    background: #f0f0f0;
+}
+.imagen{
+    text-align: center;
+    
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+.Eren{
+    width: 200px;
+    height: 300px;
+
+}
+.Mikasa{
+    width: 200px;
+    height: 300px;
+}
+.alineado{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.imagen img{
+    border: 2px solid black;
+}
+.imagen:hover{
+    transform: scale(1.05);
+    
+}
+.parrafos{
+    width: 75%;
+    text-align: justify;
+}
+.pj img{
+    margin-left: 5%;
+    float: right;
+}
+.ay{
+    display: flex;
+}
+.h1e{
+color: black;
+}
+.obj{
+    display: flex;
+}
+table img{
+    height: 200px;
+    width: 200px;
+}
+table tr td{
+    border: 1px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sesion
+{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.cuadroinicio{
+    align-content: center;
+    align-items:center;
+    height: auto;
+    width: 100%;
+}
+.Login
+{
+    background-color: rgba(190, 43, 43, 0.397);
+    width: 320px;
+    padding: 24px;
+    border-radius: 16px;
+    border: solid 5px rgb(0, 0, 0);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.726);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+.login-titulo
+{
+margin-bottom: 16px;
+}
+.entrada
+{
+display: flex;
+width: 100%;
+position: relative;
+margin-top: 20px;
+}
+.entrada input
+{
+    width: 100%;
+    padding:10px 16px 10px 38px;
+    border-radius: 99px;
+    border:solid 3px transparent;
+    background: rgb(255, 255, 255, 0.1);
+    outline: none;
+    caret-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    transition: 0.25s;
+}
+.entrada input:focus
+{
+border: solid 3px rgb(255, 255, 255, 0.25);
+}
+.entrada input::placeholder
+{
+color: rgba(0, 0, 0, 0.75);
+}
+.entrada input::-ms-reveal
+{
+    filter: invert(100%);
+}
+.entrada i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+    color:rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+    transition: 0.25s;
+}
+.entrada input:focus + i
+{
+color: rgb(0, 0, 0);
+}
+.Olvidar-recordar
+{
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+.Olvidar-recordar h5
+{
+    font-weight: normal;
+}
+.recuerdame
+{
+    display:flex
+}
+.boton-login
+{
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px 0;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 99px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    cursor:pointer;
+    outline: transparent 3px solid;
+    transition: 0.1s;
+}
+.boton-login:focus
+{
+    outline: #ff00008a 3px solid;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1; 
+}
+
+.footer {
+    background-color: #222;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 218, 149);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0; 
+    height: auto;
+    text-align: center; 
+    color: #fff;
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 7cm;
+}
+.fonm{
+    display: grid;
+    place-items: center;
+
+    background-image: url(../imagenes/fondo.jfif);
+    background-color: black;
+    background-attachment: fixed;
+}
+.findex{
+    background-color: #222;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 218, 149);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0; 
+    height: auto;
+    text-align: center; 
+    color: #fff;
+    bottom: 0; 
+    width: 100%; 
+}
