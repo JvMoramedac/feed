@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+    <title>Attack on Titan</title>
+    <link>https://sweet-pegasus-6d504f.netlify.app/</link>
+    <description>Esta página es una página informativa sobre la serie ataque a los titanes.</description>
+    <language>ES</language>
+    <item>
+        <title>Timeline</title>
+        <link>https://sweet-pegasus-6d504f.netlify.app/timeline</link>
+        <description>Este apartado está dedicado a explicar las temporadas de la serie, faltando la última.</description>
+    </item>
+    <item>
+        <title>Personajes Principales</title>
+        <link>https://sweet-pegasus-6d504f.netlify.app/personajesp</link>
+        <description>Este apartado está dedicado a los personajes principales y una explicación sobre ellos.</description>
+    </item>
+    <item>
+        <title>Tipos de Titanes</title>
+        <link>https://sweet-pegasus-6d504f.netlify.app/tipostitanes</link>
+        <description>Este apartado está dedicado a los tipos de titanes que hay a lo largo de la serie.</description>
+    </item>
+    <item>
+        <title>Equipamiento Usado</title>
+        <link>https://sweet-pegasus-6d504f.netlify.app/equipamiento</link>
+        <description>Esta página está dedicada a explicar el armamento de la serie.</description>
+    </item>
+    </channel>
+</rss>
